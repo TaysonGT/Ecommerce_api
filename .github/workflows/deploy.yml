@@ -29,7 +29,7 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "npm i nestjs && yarn install"
+        run: "npm i nestjs && npm i &&yarn install"
 
       - name: Build step
         run: "yarn build"
