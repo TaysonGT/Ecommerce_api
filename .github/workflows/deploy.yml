@@ -39,4 +39,4 @@ jobs:
         with:
           project: "taysongt-ecommerce-a-95"
           entrypoint: "."
-          root: ""
+          root: "./dist"
