@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "taysongt-ecommerce-a-95"
-          entrypoint: "main.js"
+          entrypoint: "main"
           root: "./dist"
